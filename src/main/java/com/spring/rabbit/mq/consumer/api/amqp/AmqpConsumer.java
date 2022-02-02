@@ -1,4 +1,4 @@
-package com.spring.rabbit.mq.consumer.amqp;
+package com.spring.rabbit.mq.consumer.api.amqp;
 
 public interface AmqpConsumer<T>{
 

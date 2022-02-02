@@ -14,4 +14,12 @@ spring:
         producer: rk.producer.exemplo-spring
       dead-letter:
         producer: dl.producer.exemplo-spring
-
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        default_schema: rabbitmq
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgre
